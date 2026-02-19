@@ -10,7 +10,7 @@ public class Car {
         rgnum = carnum++;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Car c1 = new Car("black");
         Car c2 = new Car("sea green");
         System.out.println(c1.color + "\t" + c1.rgnum);
