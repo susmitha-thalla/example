@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Car {
     String color;
     static int carnum = 1000;
@@ -15,5 +17,6 @@ public class Car {
         System.out.println(c2.color + "\t" + c2.rgnum);
         c2.rgnum = 1111;
         System.out.println(c1.rgnum + "\t" + c2.rgnum);
+        System.out.println("+++++++++++++++++++++++++");
     }
 }
